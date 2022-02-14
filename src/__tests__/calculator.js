@@ -3,6 +3,7 @@ import {fireEvent, render} from 'calculator-test-utils'
 import Calculator from '../calculator'
 
 test('the clear button switches from AC to C when there is an entry', () => {
+  debugger
   const {getByText} = render(<Calculator />)
   const clearButton = getByText('AC')
 
